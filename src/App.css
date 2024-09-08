@@ -1,0 +1,59 @@
+
+.app section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh;
+}
+
+@media (max-width: 480px){
+    .app{
+        overflow-x: hidden;
+    }
+    .app section{
+        padding: 2vh;
+        overflow-x: hidden;
+    }
+}
+/* Mobile deitado: 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+    .app{
+        overflow-x: hidden;
+    }
+    .app section{
+        overflow-x: hidden;
+    }
+
+}
+/* Tablet em pé: 834px */
+@media (min-width: 769px) and (max-width: 834px) {
+    .app{
+        overflow-x: hidden;
+    }
+    .app section{
+        overflow-x: hidden;
+    }
+
+    
+}
+/* Tablet deitado: 1024px */
+@media (min-width: 835px) and (max-width: 1024px) {
+    .app{
+        overflow-x: hidden;
+    }
+    .app section{
+        overflow-x: hidden;
+    }
+
+
+}
+
+@media (min-width: 1025px) and (max-width: 1368px){
+    .app{
+        overflow-x: hidden;
+    }
+    .app section{
+        overflow-x: hidden;
+    }
+
+}

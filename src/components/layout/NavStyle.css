@@ -1,0 +1,238 @@
+.nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    height: 10vh;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.logo span{
+    background: url('../../assets/cardapioSaudavel.png');
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    transition: .7s;
+}
+
+.logo h1{
+    text-transform: uppercase;
+    color: #FFB74D;
+    font-size: 2.5rem;
+}
+
+.nav-toggle{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.nav-toggle span{
+    position: absolute;
+    height: 10px;
+    width: 60px;
+    background-color: #FFB74D;
+    border-radius: 10px;
+    transition: .5s;
+}
+.nav-toggle span:nth-child(1){
+    transform: translateY(-15px);
+    width: 60px;
+}
+
+.nav-toggle span:nth-child(2){
+    transform: translateY(15px);
+    width: 60px;
+}
+.nav-toggle.active span:nth-child(3){
+    transform: translateX(80rem);
+}
+
+.nav-toggle.active span:nth-child(1){
+    width: 60px;
+    transform: translate(0px) rotate(45deg);
+}
+.nav-toggle.active span:nth-child(2){
+    width: 60px;
+    transform: translate(0px) rotate(315deg);
+}
+
+
+.description-categories{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+    padding: 2rem;
+    right: 0;
+    background-color: #0c350f;
+    z-index: 4;
+    transform: translateX(20rem);
+    transition: .5s;
+}
+.description-categories.active{
+    transform: translateX(0rem);
+}
+
+.description-categories button{
+    padding: 1vh;
+    border: none;
+    font-size: .9rem;
+    margin-bottom: 1rem;
+    color:#0c350f;
+    background-color:#FFB74D;
+    cursor: pointer;
+    transition: 1.1s;
+}
+
+.description-categories button:hover{
+    background-color:#0c350f;
+    border: 1px solid #FFB74D;
+    color:#FFB74D;
+}
+
+/*Parte adaptada para dispositivos */
+
+/*Mobile em pé: 480px*/
+@media (max-width: 480px){
+    .nav{
+        padding: 0;
+        height: 10vh;
+    }
+    .logo h1{
+        font-size: .9rem;
+    }
+    .logo span{
+        height: 50px;
+        width: 50px;
+    }
+    .nav-toggle{
+        height: 60px;
+        width: 60px;
+    }
+    .nav-toggle span{
+        height: 5px;
+        width: 40px;
+    }
+    .nav-toggle span:nth-child(1){
+        transform: translateY(-15px);
+        width: 40px;
+    }
+    
+    .nav-toggle span:nth-child(2){
+        transform: translateY(15px);
+        width: 40px;
+    }
+    .nav-toggle.active span:nth-child(3){
+        transform: translateX(80rem);
+    }
+    
+    .nav-toggle.active span:nth-child(1){
+        width: 40px;
+        transform: translate(0px) rotate(45deg);
+    }
+    .nav-toggle.active span:nth-child(2){
+        width: 40px;
+        transform: translate(0px) rotate(315deg);
+    }
+}
+/* Mobile deitado: 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+    .nav{
+        padding: 0;
+        height: 20vh;
+    }
+    .logo h1{
+        font-size: 1.5rem;
+    }
+    .logo span{
+        height: 60px;
+        width: 60px;
+    }
+    .nav-toggle{
+        height: 60px;
+        width: 60px;
+    }
+    .nav-toggle span{
+        height: 5px;
+        width: 40px;
+    }
+    .nav-toggle span:nth-child(1){
+        transform: translateY(-15px);
+        width: 40px;
+    }
+    
+    .nav-toggle span:nth-child(2){
+        transform: translateY(15px);
+        width: 40px;
+    }
+    .nav-toggle.active span:nth-child(3){
+        transform: translateX(80rem);
+    }
+    
+    .nav-toggle.active span:nth-child(1){
+        width: 40px;
+        transform: translate(0px) rotate(45deg);
+    }
+    .nav-toggle.active span:nth-child(2){
+        width: 40px;
+        transform: translate(0px) rotate(315deg);
+    }
+
+}
+
+/* Laptop e Desktop: 1440px */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .nav{
+        padding: 0;
+        height: 15vh;
+    }
+    .logo h1{
+        font-size: 2rem;
+    }
+    .logo span{
+        height: 70px;
+        width: 70px;
+    }
+    .nav-toggle{
+        height: 80px;
+        width: 80px;
+    }
+    .nav-toggle span{
+        height: 10px;
+        width: 45px;
+    }
+    .nav-toggle span:nth-child(1){
+        transform: translateY(-15px);
+        width: 40px;
+    }
+    
+    .nav-toggle span:nth-child(2){
+        transform: translateY(15px);
+        width: 40px;
+    }
+    .nav-toggle.active span:nth-child(3){
+        transform: translateX(80rem);
+    }
+    
+    .nav-toggle.active span:nth-child(1){
+        width: 40px;
+        transform: translate(0px) rotate(45deg);
+    }
+    .nav-toggle.active span:nth-child(2){
+        width: 40px;
+        transform: translate(0px) rotate(315deg);
+    }
+
+
+}

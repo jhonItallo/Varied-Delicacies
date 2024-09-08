@@ -1,0 +1,103 @@
+.wrapper-description-category{
+    transform: scale(.8);
+    transition: .7s;
+}
+.wrapper-description-category.active{
+    transform: scale(1);
+}
+
+.description-category{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh;
+    margin-bottom: 4rem;
+    max-width: 800px;
+    border: 2px solid #FFB74D;
+}
+
+.description-category h2{
+    margin-bottom: 1rem;
+}
+.description-category p{
+    text-align: center;
+}
+.description-category .button-active-description{
+    position: absolute;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    right: 0;
+    top: 0;
+}
+
+
+.description-category .button-active-description svg{
+    height: 60px;
+    width: 60px;
+    color: #FFB74D;
+    transform: translateX(0deg);
+    transition: .7s;
+}
+.description-category .button-active-description svg:hover{
+    transform: rotate(-90deg);
+    cursor: pointer;
+}
+
+/*Mobile */
+@media (max-width: 480px){
+    .description-category h2{
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+    .description-category p{
+        font-size: .8rem;
+        text-align: center;
+    }
+    .description-category{
+        padding: 2vh;
+        max-width: 400px;
+    }
+    .description-category .button-active-description svg{
+        height: 40px;
+        width: 40px;
+    }
+
+}
+
+/* Mobile deitado: 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+    .description-category h2{
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+    .description-category p{
+        font-size: .8rem;
+        text-align: center;
+    }
+    .description-category{
+        padding: 2vh;
+        max-width: 400px;
+    }
+    .description-category .button-active-description svg{
+        height: 40px;
+        width: 40px;
+    }
+
+}
+
+/* Tablet em pé: 834px */
+@media (min-width: 769px) and (max-width: 834px) {
+
+}
+
+/* Tablet deitado: 1024px */
+@media (min-width: 835px) and (max-width: 1024px) {
+
+}
+
+/*Notebooks and Laptops */
+@media (min-width: 1025px) and (max-width: 1368px){
+    
+}

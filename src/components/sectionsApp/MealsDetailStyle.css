@@ -1,0 +1,424 @@
+.meal-detail{
+    display: flex;
+    flex-direction: column;
+    padding: 10vh;
+}
+.meal-detail h1{
+    margin-left: 4vh;
+}
+.container-detail{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    width: 100%;
+}
+.container-detail img{
+    height: 100%;
+    width: 60vh;
+    object-fit: contain;
+    border-radius: 5vh;
+    animation: introImage .7s linear forwards;
+}
+@keyframes introImage{
+    0%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.meal-detail p{
+    line-height: 4.5vh;
+    font-size: .9rem;
+}
+.ingredients-card{
+    padding: 2vh;
+    border-radius: 2vh;
+    animation: IntroCard .8s linear forwards;
+}
+@keyframes IntroCard{
+    0%{
+        transform: translateX(20rem);
+    }
+    100%{
+        transform: translateX(0rem);
+    }
+}
+
+.list-ingredients{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 4vh;
+    color: #ff9900;
+    font-size: 1.5rem;
+}
+.list-ingredients li{
+    padding: 1vh;
+    font-size: 1rem;
+    margin-right: 2vh;
+    margin-bottom: 2vh;
+    background-color: #ffffff;
+    border-radius: 2vh;
+}
+.information-meal{
+    margin-bottom: 2.5vh;
+}
+.information-meal h1{
+    color: #ff9900;
+    padding: 2vh;
+    border-bottom: 1px solid #ff9900;
+    margin-bottom: 2vh;
+}
+.information-meal h2{
+    font-size: .9rem;
+    padding: 1vh;
+}
+.category span{
+    text-transform: uppercase;
+    border-bottom: 2px solid #ff9900;
+}
+
+.region span{
+    text-transform: uppercase;
+    color: #ff9900;
+}
+.font{
+    display: flex;
+    margin-bottom: 2vh;
+}
+.font a{
+    display: flex;
+    align-items: center;
+    font-size: 2vh;
+    color: #ff9900;
+}
+.tags span{
+    text-transform: uppercase;
+    padding: .4vh;
+    color: #ff9900;
+    border: 1px solid #ff9900;
+}
+.container-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2vh;
+    background-color: #d68203;
+}
+.container-list h1{
+    text-transform: uppercase;
+    font-size: 4vh;
+    margin-top: 2vh;
+    border-bottom: 4px solid #ffffff;
+}
+
+/*Mobile */
+@media (min-width: 344px)  and (max-width: 480px){
+    .meal-detail{
+        align-items: center;
+        padding: 5vh;
+    }
+    .container-detail{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+    .container-detail img{
+        height: 30vh;
+        width: 30vh;
+        object-fit: contain;
+        border-radius: 5vh;
+        animation: introImage .7s linear forwards;
+    }
+    .meal-detail p{
+        max-width: 250px;
+        line-height: 2.5vh;
+        font-size: .7rem;
+    }
+    .list-ingredients{
+        align-items: center;
+        justify-content: center;
+        max-width: 200px;
+        padding: 4vh;
+        font-size: 1.2rem;
+    }
+    .list-ingredients li{
+        font-size: .9rem;
+        margin-right: .5vh;
+        margin-bottom: 1vh;
+        background-color: #ffffff;
+        border-radius: 2vh;
+    }
+    .container-list{
+        border-radius: 2vh;
+        background-color: #d68203;
+    }
+    .container-list h1{
+        text-transform: uppercase;
+        font-size: 2rem;
+    }
+    .information-meal{
+        max-width: 250px;
+        margin-bottom: 2.5vh;
+    }
+    .information-meal h1{
+        font-size: .9rem;
+        padding: 1vh;
+        margin-bottom: 1vh;
+    }
+    .information-meal h2{
+        font-size: .7rem;
+        padding: 1vh;
+    }
+    .tags{
+        letter-spacing: normal;
+    }
+    .font{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 1.5vh;
+    }
+    .font a{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 200px;
+        align-items: center;
+        font-size: .5rem;
+    }
+    
+
+}
+
+/* Mobile deitado: 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+    .meal-detail{
+        align-items: center;
+        padding: 5vh;
+    }
+    .container-detail{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+    .container-detail img{
+        height: 40vh;
+        width: 40vh;
+        object-fit: contain;
+        border-radius: 5vh;
+        animation: introImage .7s linear forwards;
+    }
+    .meal-detail p{
+        max-width: 450px;
+        line-height: 4.5vh;
+        font-size: .9rem;
+    }
+    .list-ingredients{
+        align-items: center;
+        justify-content: center;
+        max-width: 250px;
+        padding: 4vh;
+        font-size: 1.2rem;
+    }
+    .list-ingredients li{
+        font-size: .9rem;
+        margin-right: .5vh;
+        margin-bottom: 1vh;
+        background-color: #ffffff;
+        border-radius: 2vh;
+    }
+    .container-list{
+        border-radius: 2vh;
+        background-color: #d68203;
+    }
+    .container-list h1{
+        text-transform: uppercase;
+        font-size: 2rem;
+    }
+    .information-meal{
+        max-width: 250px;
+        margin-bottom: 2.5vh;
+    }
+    .information-meal h1{
+        font-size: 1rem;
+        padding: 1vh;
+        margin-bottom: 1vh;
+    }
+    .information-meal h2{
+        font-size: .8rem;
+        padding: 1vh;
+    }
+    .font{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 1.5vh;
+    }
+    .font a{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 250px;
+        align-items: center;
+        font-size: .6rem;
+    }
+    
+    
+
+}
+
+/* Tablet em pé: 834px */
+@media (min-width: 769px) and (max-width: 834px) {
+    .meal-detail{
+        align-items: center;
+        padding: 5vh;
+    }
+    .container-detail{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+    .container-detail img{
+        height: 40vh;
+        width: 40vh;
+        object-fit: contain;
+        border-radius: 5vh;
+        animation: introImage .7s linear forwards;
+    }
+    .meal-detail p{
+        max-width: 350px;
+        line-height: 2.5vh;
+        font-size: .9rem;
+    }
+    .list-ingredients{
+        align-items: center;
+        justify-content: center;
+        max-width: 250px;
+        padding: 2vh;
+        font-size: 1.2rem;
+    }
+    .list-ingredients li{
+        font-size: .9rem;
+        margin-right: .5vh;
+        margin-bottom: 1vh;
+        background-color: #ffffff;
+        border-radius: 2vh;
+    }
+    .container-list{
+        border-radius: 2vh;
+        background-color: #d68203;
+    }
+    .container-list h1{
+        text-transform: uppercase;
+        font-size: 2rem;
+    }
+    .information-meal{
+        max-width: 250px;
+        margin-bottom: 2.5vh;
+    }
+    .information-meal h1{
+        font-size: 1rem;
+        padding: 1vh;
+        margin-bottom: 1vh;
+    }
+    .information-meal h2{
+        font-size: .9rem;
+        padding: 1vh;
+    }
+    .font{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 1.5vh;
+    }
+    .font a{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 250px;
+        align-items: center;
+        font-size: .6rem;
+    }
+    
+    
+
+}
+
+/* Tablet deitado: 1024px */
+@media (min-width: 835px) and (max-width: 1024px) {
+    .meal-detail{
+        align-items: center;
+        padding: 5vh;
+    }
+    .container-detail{
+        flex-direction: column;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+    .container-detail img{
+        height: 50vh;
+        width: 50vh;
+        object-fit: contain;
+        border-radius: 5vh;
+        animation: introImage .7s linear forwards;
+    }
+    .meal-detail p{
+        max-width: 600px;
+        line-height: 6vh;
+        font-size: 1.5rem;
+    }
+    .list-ingredients{
+        align-items: center;
+        justify-content: center;
+        max-width: 250px;
+        padding: 4vh;
+        font-size: 1.2rem;
+    }
+    .list-ingredients li{
+        font-size: .9rem;
+        margin-right: 1vh;
+        margin-bottom: 2vh;
+        background-color: #ffffff;
+        border-radius: 2vh;
+    }
+    .container-list{
+        border-radius: 2vh;
+        background-color: #d68203;
+    }
+    .container-list h1{
+        text-transform: uppercase;
+        font-size: 2rem;
+    }
+    .information-meal{
+        max-width: 450px;
+        margin-bottom: 2.5vh;
+    }
+    .information-meal h1{
+        font-size: 1rem;
+        padding: 1vh;
+        margin-bottom: 1vh;
+    }
+    .information-meal h2{
+        font-size: .9rem;
+        padding: 1vh;
+    }
+    .font{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 1.5vh;
+    }
+    .font a{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 250px;
+        align-items: center;
+        font-size: .6rem;
+    }
+    
+
+}
+

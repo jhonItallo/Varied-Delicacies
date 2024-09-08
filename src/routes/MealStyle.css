@@ -1,0 +1,19 @@
+.container-meal{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.back-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid rgb(250, 134, 26);
+}
+.back-mealDetail{
+    margin-right: 2vh;
+}
+.back-mealDetail svg{
+    height: 50px;
+    width: 50px;
+    color: rgb(250, 134, 26);
+}
