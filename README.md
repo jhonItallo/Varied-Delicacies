@@ -1,8 +1,7 @@
-# React + Vite
+# Varied Delicacies
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Varied Delicacies oferece um cardápio variado de receitas internacionais, com ingredientes completos e instruções detalhadas de preparo. Ideal para explorar sabores de diversas culturas, com opções que vão de sobremesas a pratos veganos, carnes e frutos do mar.
 
-Currently, two official plugins are available:
+Interessado? Olhe👇:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Varied Delicacies](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md)
