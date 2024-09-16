@@ -1,7 +1,7 @@
 # Varied Delicacies
 
-Varied Delicacies oferece um cardápio variado de receitas internacionais, com ingredientes completos e instruções detalhadas de preparo. Ideal para explorar sabores de diversas culturas, com opções que vão de sobremesas a pratos veganos, carnes e frutos do mar.
+Varied Delicacies offers a varied menu of international recipes, with complete ingredients and detailed preparation instructions. Ideal for exploring flavors from different cultures, with options ranging from desserts to vegan dishes, meat and seafood.
 
-Interessado? Olhe👇:
+Interested? Look👇:
 
 - [Varied Delicacies](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md)
