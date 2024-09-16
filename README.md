@@ -4,4 +4,6 @@ Varied Delicacies offers a varied menu of international recipes, with complete i
 
 Interested? Look👇:
 
-- [Varied Delicacies](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md)
+<a href='https://varied-delicacies.vercel.app/' target='_blank'>
+  <img src='https://png.pngtree.com/png-vector/20191004/ourmid/pngtree-clicking-finger-icon-hand-pointer-on-white-background-vector-png-image_1790146.jpg' alt='click here' ' width='80px'/>
+</a>
